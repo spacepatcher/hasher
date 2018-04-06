@@ -1,0 +1,11 @@
+[package]
+name = "hasher"
+version = "0.1.0"
+authors = ["spacepatcher <mycardinalmail@gmail.com>"]
+
+[dependencies]
+walkdir = "2"
+md-5 = "0.7.0"
+sha-1 = "0.7.0"
+sha2 = "0.7.0"
+digest = { version = "0.7", features = ["std"]}
